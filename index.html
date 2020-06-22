@@ -1,0 +1,100 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Сорока, ІТ-21</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.css">
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    body {
+        background: radial-gradient(#ffffcc, #ffff33);
+        max-width: 980px;
+        min-width: 320px;
+        margin: auto;
+    }
+
+    h1 {
+        margin: 15px;
+        text-align: center;
+        font-family: 'Pacifico', cursive;
+        color: #800080;
+    }
+
+    h2 {
+        margin: 5px;
+        font-size: 24px;
+    }
+
+    .operas {
+        display: flex;
+        flex-direction: space-around;
+    }
+
+    #lviv, #odesa, #viden {
+        text-align: center;
+        font-size: 15px;
+        margin: 15px;
+    }
+
+    #lviv img, #odesa img, #viden img {
+        margin: 9px;
+    }
+
+    .video {
+        text-align: center;
+    }
+
+    .video #youtube {
+        margin: 20px;
+    }
+
+    .footer hr {
+        border-top: 3px dotted black;
+        max-width: 980px;
+    }
+
+    .footer {
+        text-align: center;
+        margin: 24px;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <h1>Відомі опери світу</h1>
+    </header>
+    <main>
+        <section class="operas">
+           <div id="lviv">
+               <h2>Львів</h2>
+               <img src="img/lviv-opera.jpg" width=200 height=150 alt="Львівська опера">
+               <p>Львівський національний академічний театр опери та балету імені Соломії Крушельницької — театр опери і балету у Львові, розташований в історичному центрі міста на проспекті Свободи, 28 та названий на честь відомої української оперної співачки Соломії Крушельницької.</p>
+           </div>
+           <div id="odesa">
+               <h2>Одеса</h2>
+               <img src="img/odesa-opera.jpg" width=200 height=150 alt="Одеська опера">
+               <p>Оде́ський націона́льний академі́чний теа́тр опери та балету — найстаріший оперний театр України. Найкращий театр Одеси та України на момент побудови. Будинок зведено 1887 року під керівництвом архітекторів Фердинанда Фельнера і Германа Гельмера («Бюро Фельнер & Гельмер») у стилі віденського бароко. Архітектура глядацького залу витримана в стилі пізнього французького рококо.</p>
+           </div>
+           <div id="viden">
+               <h2>Відень</h2>
+               <img src="img/viden-opera.jpg" width=200 height=150 alt="Віденська опера">
+               <p>Ві́денська держа́вна о́пера (нім. Wiener Staatsoper, до 1918 року — Віденьска придворна опера) — найбільший оперний театр в Австрії, центр музичної культури. Театр був заснований у середині XVII століття, проте спектаклі ставилися в різних приміщеннях.</p>
+           </div>
+        </section>
+        <section class="video">
+            <h1>Львівська опера</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Ak4-LAYOm5c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </section>
+        <section class="footer">
+        <hr>
+        <a href="https://www.instagram.com/my.hurricane/">Сорока, ІТ-21</a>
+        </section>
+    </main>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>        
+</body>
+</html>
